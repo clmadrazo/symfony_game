@@ -1,0 +1,13 @@
+AppBundle\Entity\Customer:
+    type: entity
+    table: null
+    repositoryClass: AppBundle\EntityRepository\CustomerRepository
+    id:
+        id:
+            type: string
+            length: 255
+    fields:
+        profile_id:
+            type: integer
+            lenght: 1
+    lifecycleCallbacks: {  }

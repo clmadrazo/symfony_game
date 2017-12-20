@@ -1,0 +1,4 @@
+students : 
+  type: rest
+  resource:     "AppBundle:CustomerRest"
+  name_prefix:  api_
